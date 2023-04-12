@@ -1,1 +1,5 @@
-# multi_user_activity_recognition_with_single_user_training_data
+Under construction. For info, please contact the developer.
+
+Full name: Francesco Semeraro
+
+E-mail addresss: francesco.semeraro@manchester.ac.uk
