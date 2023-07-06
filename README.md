@@ -1,4 +1,4 @@
-Repository construction. In the meanwhile, to get a copy of the code, you can send an email to the developer and main author of the related paper.
+Repository under construction. In the meanwhile, to get a copy of the code, you can send an email to the developer and main author of the related paper.
 
 Full name: Francesco Semeraro
 
