@@ -1,0 +1,4 @@
+[console_scripts]
+dataset_generator = reasoning_block.dataset_generator:main
+dataset_generator_for_two = reasoning_block.dataset_generator_for_two:main
+

@@ -1,0 +1,7 @@
+{
+  "package_name": "interface_msgs",
+  "non_idl_tuples": [
+    "/home/francesco/phd_ws/src/interface_msgs:msg/TimeWindowOnline.msg",
+    "/home/francesco/phd_ws/src/interface_msgs:msg/TimeWindowOffline.msg"
+  ]
+}

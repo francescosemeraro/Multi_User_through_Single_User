@@ -1,0 +1,4 @@
+source;share/acquisition_block/local_setup.bash
+source;share/acquisition_block/local_setup.dsv
+source;share/acquisition_block/local_setup.sh
+source;share/acquisition_block/local_setup.zsh

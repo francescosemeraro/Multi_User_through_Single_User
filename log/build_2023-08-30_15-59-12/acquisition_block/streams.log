@@ -1,0 +1,118 @@
+[0.033s] Invoking command in '/home/francesco/multi_user_backup_for_final/build/acquisition_block': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesco/ws_moveit2/install/moveit_configs_utils:/home/francesco/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/francesco/multi_user_backup_for_final/src/acquisition_block -DCMAKE_INSTALL_PREFIX=/home/francesco/multi_user_backup_for_final/install/acquisition_block
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.623s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.820s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.952s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.971s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.215s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.228s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.441s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.541s] -- Looking for pthread.h
+[1.635s] -- Looking for pthread.h - found
+[1.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.734s] -- Found Threads: TRUE  
+[1.934s] -- Found rosbag2_cpp: 0.15.4 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.050s] -- Found rosbag2_compression: 0.15.4 (/opt/ros/humble/share/rosbag2_compression/cmake)
+[2.064s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.116s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.208s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.328s] -- Found interface_msgs: 0.0.0 (/home/francesco/humble_ws/install/interface_msgs/share/interface_msgs/cmake)
+[2.442s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.652s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.668s] -- Configured cppcheck include dirs: /home/francesco/multi_user_backup_for_final/src/acquisition_block/include
+[2.668s] -- Configured cppcheck exclude dirs and/or files: 
+[2.683s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.683s] -- Configured cpplint exclude dirs and/or files: 
+[2.686s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.692s] -- Added test 'lint_cmake' to check CMake code style
+[2.695s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.710s] -- Added test 'uncrustify' to check C / C++ code style
+[2.710s] -- Configured uncrustify additional arguments: 
+[2.713s] -- Added test 'xmllint' to check XML markup files
+[2.718s] -- Configuring done
+[2.723s] [31mCMake Error at CMakeLists.txt:36 (add_executable):
+[2.723s]   Cannot find source file:
+[2.723s] 
+[2.724s]     src/PoseArray_generator.cpp
+[2.724s] 
+[2.724s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.724s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.724s] 
+[2.724s] [0m
+[2.724s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[2.724s]   Cannot find source file:
+[2.724s] 
+[2.724s]     src/sequences_generator_offline.cpp
+[2.725s] 
+[2.725s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.725s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.725s] 
+[2.725s] [0m
+[2.725s] [31mCMake Error at CMakeLists.txt:42 (add_executable):
+[2.725s]   Cannot find source file:
+[2.725s] 
+[2.725s]     src/sequences_generator_online.cpp
+[2.726s] 
+[2.726s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.726s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.726s] 
+[2.726s] [0m
+[2.726s] [31mCMake Error at CMakeLists.txt:54 (add_executable):
+[2.726s]   Cannot find source file:
+[2.726s] 
+[2.726s]     src/publisher_member_function.cpp
+[2.726s] 
+[2.727s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.727s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.727s] 
+[2.727s] [0m
+[2.727s] [31mCMake Error at CMakeLists.txt:57 (add_executable):
+[2.727s]   Cannot find source file:
+[2.727s] 
+[2.727s]     src/subscriber_member_function.cpp
+[2.728s] 
+[2.728s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.728s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.728s] 
+[2.728s] [0m
+[2.728s] [31mCMake Error at CMakeLists.txt:36 (add_executable):
+[2.728s]   No SOURCES given to target: sk_generator
+[2.728s] 
+[2.729s] [0m
+[2.729s] [31mCMake Error at CMakeLists.txt:39 (add_executable):
+[2.729s]   No SOURCES given to target: sq_generator_one
+[2.729s] 
+[2.729s] [0m
+[2.729s] [31mCMake Error at CMakeLists.txt:42 (add_executable):
+[2.729s]   No SOURCES given to target: sq_generator_two
+[2.730s] 
+[2.730s] [0m
+[2.730s] [31mCMake Error at CMakeLists.txt:54 (add_executable):
+[2.730s]   No SOURCES given to target: talker
+[2.730s] 
+[2.730s] [0m
+[2.730s] [31mCMake Error at CMakeLists.txt:57 (add_executable):
+[2.730s]   No SOURCES given to target: listener
+[2.731s] 
+[2.731s] [0m
+[2.731s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.736s] Invoked command in '/home/francesco/multi_user_backup_for_final/build/acquisition_block' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesco/ws_moveit2/install/moveit_configs_utils:/home/francesco/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/francesco/multi_user_backup_for_final/src/acquisition_block -DCMAKE_INSTALL_PREFIX=/home/francesco/multi_user_backup_for_final/install/acquisition_block

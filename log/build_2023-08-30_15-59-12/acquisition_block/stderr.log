@@ -1,0 +1,66 @@
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  Cannot find source file:
+
+    src/PoseArray_generator.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:39 (add_executable):
+  Cannot find source file:
+
+    src/sequences_generator_offline.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:42 (add_executable):
+  Cannot find source file:
+
+    src/sequences_generator_online.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:54 (add_executable):
+  Cannot find source file:
+
+    src/publisher_member_function.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:57 (add_executable):
+  Cannot find source file:
+
+    src/subscriber_member_function.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  No SOURCES given to target: sk_generator
+
+[0m
+[31mCMake Error at CMakeLists.txt:39 (add_executable):
+  No SOURCES given to target: sq_generator_one
+
+[0m
+[31mCMake Error at CMakeLists.txt:42 (add_executable):
+  No SOURCES given to target: sq_generator_two
+
+[0m
+[31mCMake Error at CMakeLists.txt:54 (add_executable):
+  No SOURCES given to target: talker
+
+[0m
+[31mCMake Error at CMakeLists.txt:57 (add_executable):
+  No SOURCES given to target: listener
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

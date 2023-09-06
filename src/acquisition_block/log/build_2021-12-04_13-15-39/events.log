@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (acquisition_block) JobQueued: {'identifier': 'acquisition_block', 'dependencies': OrderedDict()}
+[0.000713] (acquisition_block) JobStarted: {'identifier': 'acquisition_block'}
+[0.014075] (acquisition_block) JobProgress: {'identifier': 'acquisition_block', 'progress': 'cmake'}
+[0.014336] (acquisition_block) Command: {'cmd': ['/usr/bin/cmake', '/home/francesco/phd_ws/src/acquisition_block', '-DCMAKE_INSTALL_PREFIX=/home/francesco/phd_ws/src/acquisition_block/install/acquisition_block'], 'cwd': '/home/francesco/phd_ws/src/acquisition_block/build/acquisition_block', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'francesco'), ('SSH_AGENT_PID', '2206'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/francesco/phd_ws/install/interface_msgs/lib:/home/francesco/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/francesco'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/francesco/phd_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1960'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6368'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/francesco/phd_ws/install:/home/francesco/dev_ws/src/install:/home/francesco/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'francesco'), ('JOURNAL_STREAM', '8:54756'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'francesco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/francesco/anaconda3/condabin:/home/francesco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/francesco-ThinkPad-P53:@/tmp/.ICE-unix/2241,unix/francesco-ThinkPad-P53:/tmp/.ICE-unix/2241'), ('INVOCATION_ID', 'cbc6173996a34251acd23f43539c7c17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/francesco/phd_ws/install/reasoning_block:/home/francesco/phd_ws/install/acquisition_block:/home/francesco/phd_ws/install/interface_msgs:/home/francesco/phd_ws/install/azure_kinect_ros_driver:/home/francesco/dev_ws/src/install/cpp_pubsub:/home/francesco/dev_ws/install/turtlesim:/home/francesco/dev_ws/install/py_pubsub:/home/francesco/dev_ws/install/my_package:/home/francesco/dev_ws/install/example:/home/francesco/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/francesco/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cbcc0490-dd65-4585-8d6d-030ba2962b3a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francesco/phd_ws/src/acquisition_block/build/acquisition_block'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/francesco/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/francesco/phd_ws/install/reasoning_block/lib/python3.8/site-packages:/home/francesco/phd_ws/install/interface_msgs/lib/python3.8/site-packages:/home/francesco/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/francesco/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/francesco/dev_ws/install/example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/francesco/phd_ws/install/acquisition_block:/home/francesco/phd_ws/install/interface_msgs:/home/francesco/phd_ws/install/azure_kinect_ros_driver:/home/francesco/dev_ws/src/install/cpp_pubsub:/home/francesco/dev_ws/install/turtlesim:/home/francesco/dev_ws/install/my_package:/home/francesco/dev_ws/install/cpp_pubsub:/home/francesco/phd_ws/install/reasoning_block:/home/francesco/dev_ws/install/py_pubsub:/home/francesco/dev_ws/install/example:/opt/ros/foxy')]), 'shell': False}
+[0.100057] (-) TimerEvent: {}
+[0.123955] (acquisition_block) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.200128] (-) TimerEvent: {}
+[0.209428] (acquisition_block) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.215820] (acquisition_block) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.272957] (acquisition_block) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.274196] (acquisition_block) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300241] (-) TimerEvent: {}
+[0.332698] (acquisition_block) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.342897] (acquisition_block) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.343330] (acquisition_block) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.345912] (acquisition_block) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400353] (-) TimerEvent: {}
+[0.410443] (acquisition_block) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.411329] (acquisition_block) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.479182] (acquisition_block) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.489750] (acquisition_block) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.490209] (acquisition_block) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.494751] (acquisition_block) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.500444] (-) TimerEvent: {}
+[0.520284] (acquisition_block) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.520441] (acquisition_block) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600565] (-) TimerEvent: {}
+[0.700814] (-) TimerEvent: {}
+[0.758288] (acquisition_block) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.800945] (-) TimerEvent: {}
+[0.816399] (acquisition_block) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.825916] (acquisition_block) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901104] (-) TimerEvent: {}
+[0.919037] (acquisition_block) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.949094] (acquisition_block) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.001226] (-) TimerEvent: {}
+[1.032628] (acquisition_block) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.091975] (acquisition_block) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.094006] (acquisition_block) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.095259] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101339] (-) TimerEvent: {}
+[1.155347] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.155623] (acquisition_block) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201481] (-) TimerEvent: {}
+[1.216986] (acquisition_block) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.217254] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.265871] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.266054] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.301582] (-) TimerEvent: {}
+[1.328901] (acquisition_block) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.330490] (acquisition_block) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401697] (-) TimerEvent: {}
+[1.483231] (acquisition_block) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.3.8 (/opt/ros/foxy/share/rosbag2_cpp/cmake)\n'}
+[1.501816] (-) TimerEvent: {}
+[1.525803] (acquisition_block) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[1.532962] (acquisition_block) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.567380] (acquisition_block) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.601945] (-) TimerEvent: {}
+[1.638519] (acquisition_block) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.702071] (-) TimerEvent: {}
+[1.710461] (acquisition_block) StdoutLine: {'line': b'-- Found interface_msgs: 0.0.0 (/home/francesco/phd_ws/install/interface_msgs/share/interface_msgs/cmake)\n'}
+[1.768932] (acquisition_block) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.802154] (-) TimerEvent: {}
+[1.854956] (acquisition_block) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.859652] (acquisition_block) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.860131] (acquisition_block) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/francesco/phd_ws/src/acquisition_block/include\n'}
+[1.860236] (acquisition_block) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.864601] (acquisition_block) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.864758] (acquisition_block) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.865783] (acquisition_block) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.867394] (acquisition_block) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.868571] (acquisition_block) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.873419] (acquisition_block) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.873582] (acquisition_block) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.874639] (acquisition_block) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.878191] (acquisition_block) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.880379] (acquisition_block) StderrLine: {'line': b'CMake Error at CMakeLists.txt:47 (add_executable):\n'}
+[1.880598] (acquisition_block) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.880765] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.880872] (acquisition_block) StderrLine: {'line': b'    src/bag_example.cpp\n'}
+[1.880978] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.881079] (acquisition_block) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[1.881185] (acquisition_block) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[1.881291] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.881396] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.881504] (acquisition_block) StderrLine: {'line': b'CMake Error at CMakeLists.txt:47 (add_executable):\n'}
+[1.881609] (acquisition_block) StderrLine: {'line': b'  No SOURCES given to target: bag_example\n'}
+[1.881717] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.881818] (acquisition_block) StderrLine: {'line': b'\n'}
+[1.881909] (acquisition_block) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[1.888306] (acquisition_block) CommandEnded: {'returncode': 1}
+[1.902259] (-) TimerEvent: {}
+[1.910542] (acquisition_block) JobEnded: {'identifier': 'acquisition_block', 'rc': 1}
+[1.921157] (-) EventReactorShutdown: {}

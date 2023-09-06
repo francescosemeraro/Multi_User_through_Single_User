@@ -1,0 +1,13 @@
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/install/strip.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/video_bag_recorder.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/sq_generator_two.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/install/local.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/sq_generator_one.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/edit_cache.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/test.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/sk_generator.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/install.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/list_install_components.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/rebuild_cache.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/acquisition_block_uninstall.dir
+/home/francesco/phd_ws/src/build/acquisition_block/CMakeFiles/uninstall.dir

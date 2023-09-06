@@ -1,0 +1,4 @@
+[0mFinding K4A SDK binaries[0m
+[0mK4A Libs: k4a::k4a;k4a::k4arecord;k4abt::k4abt[0m
+[0mK4A DLLs: /usr/lib/x86_64-linux-gnu/libk4a.so.1.4.1;/usr/lib/x86_64-linux-gnu/libk4arecord.so.1.4.1;/usr/lib/libk4abt.so.1.1.2[0m
+[0mK4A Install Needed: FALSE[0m

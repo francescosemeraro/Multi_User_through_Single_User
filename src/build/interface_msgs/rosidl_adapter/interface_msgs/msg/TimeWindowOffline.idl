@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface_msgs/msg/TimeWindowOffline.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module interface_msgs {
+  module msg {
+    struct TimeWindowOffline {
+      sequence<geometry_msgs::msg::PoseArray> time_window;
+
+      sequence<geometry_msgs::msg::Point> j0;
+
+      sequence<geometry_msgs::msg::Quaternion> q_spine;
+
+      sequence<double> norm;
+    };
+  };
+};

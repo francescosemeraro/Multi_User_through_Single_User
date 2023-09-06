@@ -1,0 +1,13 @@
+[01m[K/home/francesco/multi_user_backup_for_final/src/Azure_Kinect_ROS_Driver/src/k4a_calibration_transform_data.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kangles/angles.h: No such file or directory
+   14 | #include [01;31m[K<angles/angles.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/azure_kinect_ros_driver_node.dir/build.make:118: CMakeFiles/azure_kinect_ros_driver_node.dir/src/k4a_calibration_transform_data.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/francesco/multi_user_backup_for_final/src/Azure_Kinect_ROS_Driver/src/k4a_ros_device.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kangles/angles.h: No such file or directory
+   16 | #include [01;31m[K<angles/angles.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/azure_kinect_ros_driver_node.dir/build.make:90: CMakeFiles/azure_kinect_ros_driver_node.dir/src/k4a_ros_device.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/azure_kinect_ros_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
