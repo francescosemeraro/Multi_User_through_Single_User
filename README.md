@@ -22,7 +22,7 @@ You can cite our paper using:
   doi={10.1109/IJCNN54540.2023.10191782}}
 ```
 
-###Requirements
+### Requirements
 To be able to run all the scripts, you will need to install the following:
 <br />
 1- Python 3.10 <br />
@@ -34,10 +34,10 @@ To be able to run all the scripts, you will need to install the following:
 7- sqlite3. <br />
 <br />
 
-###The repository
+### The repository
 The main elements of the repository are the following:
 <br />
-1- "acquisition_block", ROS 2 Foxy package to store data through an Azure Kinect camera in compressed bag files 3.10 <br />
+1- "acquisition_block", ROS 2 Foxy package to store data through an Azure Kinect camera in compressed bag files <br />
 2- "data", which contains all the pre-processing scripts of the data acquired in the experiments  <br />
 3- "Azure_Kinect_ROS_Driver", official ROS 2 Foxy Microsoft package to communicate with the Azure Kinect  <br />
 4- "networks", which contains the code used for the instantiation and trainings of the deep learning models under a distributed training strategy  <br />
