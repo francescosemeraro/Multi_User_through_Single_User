@@ -21,3 +21,26 @@ You can cite our paper using:
   pages={01-09},
   doi={10.1109/IJCNN54540.2023.10191782}}
 ```
+
+###Requirements
+To be able to run all the scripts, you will need to install the following:
+<br />
+1- Python 3.10 <br />
+2- Tensorflow 2.8.0 <br />
+3- tensorflow_probability  <br />
+4- ROS 2 Foxy Fitzeroy  <br />
+5- np_utils  <br />
+6- wandb <br />
+7- sqlite3. <br />
+<br />
+
+###The repository
+The main elements of the repository are the following:
+<br />
+1- "acquisition_block", ROS 2 Foxy package to store data through an Azure Kinect camera in compressed bag files 3.10 <br />
+2- "data", which contains all the pre-processing scripts of the data acquired in the experiments  <br />
+3- "Azure_Kinect_ROS_Driver", official ROS 2 Foxy Microsoft package to communicate with the Azure Kinect  <br />
+4- "networks", which contains the code used for the instantiation and trainings of the deep learning models under a distributed training strategy  <br />
+5- "libraries", folder used to install some custom libraries used in the "data" and "networks" folders.  <br />
+<br />
+
