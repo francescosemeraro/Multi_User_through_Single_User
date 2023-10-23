@@ -9,7 +9,7 @@ In this paper, we propose a new way of generating training data regarding multi-
 This repository contains the code you can use to replicate such results.
 
 ### How to cite our paper
-You can cite our paper using: 
+If any of the content of this repository was helpful to you, please cite our paper using:
 ```
 @INPROCEEDINGS{10191782,
   author={Semeraro, Francesco and Carberry, Jon and Cangelosi, Angelo},
@@ -33,6 +33,14 @@ To be able to run all the scripts, you will need to install the following:
 6- wandb <br />
 7- sqlite3. <br />
 <br />
+
+### The data
+Please find the .csv files related to this project at the following links:
+
+First part: <a href="https://figshare.com/articles/dataset/Multi-user_activity_recognition_database_with_single_user_training_data/22593298">here</a> 
+Second part: <a href="https://figshare.com/articles/dataset/Multi-user_activity_recognition_database_Second_part_/24421438">here</a>  
+
+
 
 ### The repository
 The main elements of the repository are the following:
